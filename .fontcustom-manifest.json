@@ -1,0 +1,75 @@
+{
+  "checksum": {
+    "previous": "cd2cf796da61ed1850d89737488706220139c63e6f577a0eac479f64f87ab098",
+    "current": "cd2cf796da61ed1850d89737488706220139c63e6f577a0eac479f64f87ab098"
+  },
+  "fonts": [
+    "package/fonts/icons.ttf",
+    "package/fonts/icons.svg",
+    "package/fonts/icons.woff",
+    "package/fonts/icons.eot"
+  ],
+  "glyphs": {
+    "deviant-art": {
+      "codepoint": 61696,
+      "source": "glyphs/deviant-art.svg"
+    },
+    "etsy": {
+      "codepoint": 61697,
+      "source": "glyphs/etsy.svg"
+    },
+    "facebook": {
+      "codepoint": 61698,
+      "source": "glyphs/facebook.svg"
+    },
+    "instagram": {
+      "codepoint": 61699,
+      "source": "glyphs/instagram.svg"
+    },
+    "redbubble": {
+      "codepoint": 61700,
+      "source": "glyphs/redbubble.svg"
+    },
+    "tumblr": {
+      "codepoint": 61701,
+      "source": "glyphs/tumblr.svg"
+    },
+    "twitter": {
+      "codepoint": 61702,
+      "source": "glyphs/twitter.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "base64": false,
+    "config": "fontcustom.yml",
+    "css_selector": ".i-{{glyph}}",
+    "debug": true,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "icons",
+    "force": false,
+    "input": {
+      "templates": "glyphs",
+      "vectors": "glyphs"
+    },
+    "no_hash": true,
+    "output": {
+      "css": "package/styles",
+      "fonts": "package/fonts",
+      "preview": "app/views/styleguide"
+    },
+    "preprocessor_path": null,
+    "quiet": false,
+    "templates": [
+      "css",
+      "preview"
+    ]
+  },
+  "templates": [
+    "package/styles/icons.css",
+    "app/views/styleguide/icons-preview.html"
+  ]
+}
