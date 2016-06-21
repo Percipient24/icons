@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "cd2cf796da61ed1850d89737488706220139c63e6f577a0eac479f64f87ab098",
-    "current": "cd2cf796da61ed1850d89737488706220139c63e6f577a0eac479f64f87ab098"
+    "previous": "5012bdb150b291d198681e91d8d88c4505b2fdb081031f95aba3f714e9c370fe",
+    "current": "5012bdb150b291d198681e91d8d88c4505b2fdb081031f95aba3f714e9c370fe"
   },
   "fonts": [
     "package/fonts/icons.ttf",
@@ -40,7 +40,7 @@
     }
   },
   "options": {
-    "autowidth": false,
+    "autowidth": true,
     "base64": false,
     "config": "fontcustom.yml",
     "css_selector": ".i-{{glyph}}",
